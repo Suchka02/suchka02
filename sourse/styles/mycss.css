@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    }
+
+.nav-link {
+    color: rgb(218, 218, 218);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(150, 150, 150);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(150, 150, 150);
+}
+
+.card {
+    background-color: rgb(221, 221, 221);
+}
+
+.hello {
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: larger;
+}
+
+.hello>p>span{
+    font-weight: bold;
+}
+
+.hello>p>h1>span{
+    font-weight: bold;
+}
+
+.text>span {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.carousel slide {
+    margin-top: 1em;
+}
+
+.trebov {
+    background-color: rgb(226, 226, 226);
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin: 40px;
+}
+
+.recenzy {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.recenzy>h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.get {
+    background-color: rgb(243, 243, 243);
+    display: inline;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 5px;
+    margin: 40px;
+    text-align: center;
+}
+
+.footer-text {
+    border-top: 0.5px;
+}
